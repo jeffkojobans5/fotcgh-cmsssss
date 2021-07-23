@@ -45,20 +45,9 @@ const SingleProject = ( props ) => {
 				<Navbar />
           		<h1 className='proj-h1'> { title } </h1>
                 <p> {date} </p>
-
-			    <div> 
-			     {documentToReactComponents(content , {
-			    	renderNode : {
-			    		[ BLOCKS.EMBEDDED_ASSET ] : (node) => (
-			    			<Image src= {"https:" + node.data.target.fields.file.url} 
-			    			width={node.data.target.fields.file.details.image.width}
-			    			height={node.data.target.fields.file.details.image.height}
-			    			/>
-			    		),
-			    	},
-			    }) } 
-
-			     </div>
+       <div>
+        {documentToReactComponents(content)}
+      </div>
 
 
 			</div>
