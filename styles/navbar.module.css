@@ -1,0 +1,32 @@
+.ul {
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    background-color: ;
+	margin-top: 1rem;
+}
+
+.li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+.a {
+    flex: 1;
+    text-align: center;
+    list-style: none ;
+    text-decoration: none;   
+    font-weight: 500;
+    color: #072366;
+    transition: 0.3s all;
+}
+
+.a:hover {
+    color: #09cc7f;
+}
+
+@media only screen and (max-width: 760px) {
+
+
+}

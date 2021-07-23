@@ -1,0 +1,29 @@
+.h1 {
+    font-size: 300%;
+    font-weight: 800;
+    color: #072366;
+    padding-right: 1rem;
+}
+
+.p {
+    font-size:  1rem;
+    font-family: 'Mulish', sans-serif;
+    color:  gray;    
+    line-height:  2rem;
+    width: 80%;
+}
+
+
+
+@media only screen and (max-width: 760px){
+    .h1 {
+        font-size:  200%;
+        text-align:  center;
+        padding-right:  0;
+    }
+    .p {
+        width:  100%;
+        text-align:  center !important;
+    }
+
+}

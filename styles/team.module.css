@@ -1,0 +1,41 @@
+.line {
+	height: 8px;
+	width: 40px;
+	background-color: #09cc7f;
+	margin:  0 auto;
+	margin-bottom: 3rem;
+}
+
+.img2 {
+	height: auto;
+	max-width: 100%;
+}
+
+.figure {
+	background-color: #f8fcff;
+}
+
+.figure h5 {
+	text-align: center;
+	font-weight: 600;
+}
+
+.figure p {
+	text-align: center;
+}
+
+.h1 {
+    font-size: 200%;
+    font-weight: 800;
+    color: #072366;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 760px){
+.figure {
+	margin: 1rem;
+}
+}
+

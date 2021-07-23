@@ -20,7 +20,9 @@ export async function getStaticProps() {
     }
 }
 
-const Index = (props) => {
+
+const Tea = (props) => {
+   console.log(props.fotcgh)
   return (
     <>
       <div className="container-fluid">
@@ -36,4 +38,4 @@ const Index = (props) => {
 }
 
 
-export default Index
+export default Tea

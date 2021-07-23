@@ -1,0 +1,49 @@
+.line {
+	height: 8px;
+	width: 80px;
+	background-color: #09cc7f;
+	margin:  0 auto;
+	margin-bottom: 3rem ;
+}
+
+.h1 {
+    font-size: 200%;
+    font-weight: 800;
+    color: #072366;
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.h2 {
+    font-weight: 600;
+    color: #072366;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.img {
+	height: auto;
+	max-width: 100%;
+}
+
+.img2 {
+	height: auto;
+	max-width: 80%;
+    position: relative;
+    top: 100px;	
+    right: 0px;
+}
+
+
+@media only screen and (max-width: 760px){
+.p {
+	text-align: left !important;
+}
+.img2 {
+	display:  none;
+}
+.img {
+	margin-top: 2rem;
+}
+
+}
