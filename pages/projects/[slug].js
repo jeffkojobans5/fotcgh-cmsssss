@@ -39,7 +39,6 @@ export async function getStaticProps( {params} ) {
 const SingleProject = ( props ) => {
 	const { fotcgh } = props
 	const { title , date , slug , content } = fotcgh.fields
-	console.log(content)
 	return (
 		<div className='container-fluid'>
 			<div className='container'>
